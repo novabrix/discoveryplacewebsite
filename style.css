@@ -1,0 +1,43 @@
+.navlink{
+    position: absolute;
+    top: 20px;
+    border: 2px solid black;
+    font-size: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    display: block;
+    margin-left: 10px;
+    box-sizing: content-box;
+    width: auto;
+    height: fit-content;
+
+}
+
+.two {
+    left: 200px;
+}
+
+
+
+
+
+
+.content1 {
+    background-color: aquamarine;
+    position: relative;
+    top: -300px;
+    /* display: inline; */
+    /* width: 100%; */
+    text-align: center;
+    overflow: none;
+    border: 2px solid black;
+    box-shadow: 2px 2px 100px 10px;
+
+
+    
+}
+
+
+
+
+
