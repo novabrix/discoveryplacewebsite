@@ -24,30 +24,31 @@ body {
 .navbar {
   display: flex;
   justify-content: space-around;
-  align-content: center;
+  /* align-content: center; */
   background-color: rgb(253, 246, 237);
+  width: auto;
 }
 
 .navlinks {
   display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  padding-left: 300px;
-  margin-bottom: 16px;
-  margin-top: 10px;
+  /* justify-content: space-between; */
+  padding-left: 2px;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .nav1,
 .nav2,
 .nav3,
 .nav4 {
-  padding-left: 25px;
+  padding-left: 25px; 
   padding-right: 25px;
   align-content: center;
   font-size: large;
   background-color: rgb(150, 104, 36);
   color: white;
   border: black;
+  
 }
 .nav1 {
   margin-left: 200px;
