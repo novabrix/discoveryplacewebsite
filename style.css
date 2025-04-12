@@ -3,11 +3,24 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   border-radius: 10px;
 }
-
+a {
+ text-decoration: none;
+ font-size: 30px;
+ margin-right: 50px;
+ color: black;
+ background-color: white;
+ padding: 10px;
+}
+a:hover {
+  padding: 20px;
+  color: purple;
+}
 body {
   margin: 0;
 }
-
+.navlogo {
+  padding-bottom: 20px ;
+}
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -54,6 +67,26 @@ body {
   background-color: rgb(22, 102, 116);
   border-radius: 0;
   color: white;
+  /* font-size: 20px;
+  text-align: center; */
+  padding-left: 70px;
+  padding-bottom: 50px;
+}
+
+.head1 {
+  font-size: 60px;
+  margin-top: -60px;
+
+  
+}
+
+.headtitle {
+  margin-top: 20px;
+  
+}
+
+.leftbox {
+  width: auto;
 }
 
 /* ////////////////// TO DELETE ////////////////////// */
