@@ -26,9 +26,19 @@ body {
 }
 
 /* ////////// Nav Bar Styles ////////// */
-
+a {
+  padding-left: 25px;
+  padding-right: 25px;
+  align-content: center;
+  font-size: large;
+  background-color: rgb(150, 104, 36);
+  color: white;
+  border: black;
+  text-decoration: none;
+}
 .navlogo {
   padding-bottom: 10px;
+  background-color: white;
 }
 
 .navbar {
@@ -44,18 +54,7 @@ body {
   margin-top: auto;
 }
 
-.nav1,
-.nav2,
-.nav3 {
-  padding-left: 25px;
-  padding-right: 25px;
-  align-content: center;
-  font-size: large;
-  background-color: rgb(150, 104, 36);
-  color: white;
-  border: black;
-  text-decoration: none;
-}
+
 .nav1 {
   margin-left: 100px;
 }
@@ -105,10 +104,21 @@ a:hover {
   margin-left: -50px;
 }
 
-.headbuttons {
+.sec1buttons{
   display: flex;
   justify-content: center;
   margin-left: -50px;
+  padding: 20px;
+}
+
+.but3 {
+  position: relative;
+  left: -100px;
+}
+
+.but4 {
+  position: relative;
+  left: 100px;
 }
 
 .title {
@@ -128,7 +138,7 @@ a:hover {
 
   flex-direction: column;
   /* padding: 150px; */
-  background-color: rgb(253, 246, 237);
+  background-color: red;
   padding-left: 100px;
   padding-top: 20px;
   padding-right: auto;
@@ -141,6 +151,7 @@ a:hover {
   flex-direction: column;
   width: 500px;
   font-size: 30px;
+  padding-right: auto;
 }
 
 .img1 {
@@ -149,5 +160,60 @@ a:hover {
   width: 600px;
   position: relative;
   left: 650px;
-  top: -580px;
+  top: -650px;
 }
+
+.sectionbutton {
+  width: 150px;
+}
+
+/* ///////// Section Three Styles /////////// */
+
+.secheader {
+  justify-content: center;
+  background-color: beige;
+  text-align: center;
+  font-size: 30px;
+}
+.sec4header {
+  width: 550px;
+}
+
+.sec3minisec1 {
+  padding-left: 50px;
+  
+  display: flex;
+}
+
+.minisec {
+  width: 1000px;
+  font-size: 25px;
+  padding: 25px;
+  margin-right: 25px;
+  text-align: center;
+  background-color: bisque;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px 1px;
+}
+.section4 {
+  background-color: red;
+  width: auto;
+}
+.para1 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  font-size: 25px;
+  padding-left: 20px;
+  
+}
+
+
+
+/* a {
+ align-content: center;
+  display: flex;
+  padding-left: 2px;
+  margin-bottom: auto;
+  margin-top: auto;
+} */
