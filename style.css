@@ -164,7 +164,7 @@ a:hover {
 }
 
 .sectionbutton {
-  width: 150px;
+  width: auto;
 }
 
 /* ///////// Section Three Styles /////////// */
@@ -195,9 +195,16 @@ a:hover {
   margin-bottom: 20px;
   box-shadow: 2px 2px 5px 1px;
 }
+
+/* ///////// Section Four Styles ////////////// */
 .section4 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: fit-content;
   background-color: red;
   width: auto;
+  height: 1050px
 }
 .para1 {
   display: flex;
@@ -208,6 +215,25 @@ a:hover {
   
 }
 
+.img4 {
+  position: relative;
+  left: 650px;
+  top: -850px;
+}
+
+/* /////// Section Five Styles ////////////// */
+
+.section5 {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  /* height: 500px; */
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 100px;
+}
 
 
 /* a {
