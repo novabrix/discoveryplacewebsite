@@ -4,6 +4,7 @@
   font-family: Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   border-radius: 10px;
 }
+
 .aboutpage {
   margin-left: 10px;
   margin-right: 15px;
@@ -25,7 +26,8 @@ span:hover {
 }
 
 body {
-  /* margin: 0; */
+  /* margin: 0;  */
+  background-image: url(img/backRolls.svg);
 }
 
 /* ////////// Nav Bar Styles ////////// */
@@ -41,13 +43,12 @@ a {
 }
 .navlogo {
   padding-bottom: 10px;
-  background-color: white;
+  background-color: rgb(223, 210, 193);
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(253, 246, 237);
 }
 
 .navlinks {
@@ -56,7 +57,6 @@ a {
   margin-bottom: auto;
   margin-top: auto;
 }
-
 
 .nav1 {
   margin-left: 100px;
@@ -107,7 +107,7 @@ a:hover {
   margin-left: -50px;
 }
 
-.sec1buttons{
+.sec1buttons {
   display: flex;
   justify-content: center;
   margin-left: -50px;
@@ -184,7 +184,7 @@ a:hover {
 
 .sec3minisec1 {
   padding-left: 50px;
-  
+
   display: flex;
 }
 
@@ -207,7 +207,7 @@ a:hover {
   height: fit-content;
   background-color: red;
   width: auto;
-  height: 1050px
+  height: 1050px;
 }
 .para1 {
   display: flex;
@@ -215,7 +215,6 @@ a:hover {
   width: 500px;
   font-size: 25px;
   padding-left: 20px;
-  
 }
 
 .img4 {
@@ -234,8 +233,8 @@ a:hover {
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  background-color: aqua;
-  /* height: 500px; */
+  background-image: url("img/bChildren.svg");
+  height: 400px;
   justify-content: center;
   align-items: center;
   width: auto;
@@ -260,7 +259,6 @@ a:hover {
   position: relative;
 }
 .footertext {
-  
   width: 500px;
   padding: 20px;
   margin-left: 30px;
@@ -271,23 +269,24 @@ a:hover {
   position: relative;
   top: 20px;
   text-align: center;
-  
-
 }
 
 /* ////////// About Section One Styles ///////// */
 
+<<<<<<< HEAD
 .aboutsection1 {
   background-color: wheat;
   box-shadow: 2px 2px 5px 2px;
   padding: 10px;
   margin: 10px;
 }
+=======
+>>>>>>> eb5fd2ecff48cbb86fe156eb3cc19aa05bfbf4ff
 /* ////////// About Section Two Styles ///////// */
 
 .aboutsection2 {
   height: fit-content;
-  
+
   font-size: 20px;
 }
 
