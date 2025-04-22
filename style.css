@@ -1,7 +1,7 @@
 /* ////////// Global Styles ////////// */
 
 * {
-  font-family: Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 10px;
 }
 
@@ -28,6 +28,10 @@ span:hover {
 body {
   /* margin: 0;  */
   background-image: url(img/backRolls.svg);
+}
+
+.section {
+  background-color: white;
 }
 
 /* ////////// Nav Bar Styles ////////// */
@@ -90,13 +94,17 @@ a:hover {
   align-content: center;
   display: flex;
   flex-direction: column;
-  background-color: rgb(17, 66, 75);
+  /* background-color: rgb(17, 66, 75); */
   border-radius: 0;
-  color: white;
+  color: black;
   /* font-size: 20px;
   text-align: center; */
   padding-left: 70px;
   padding-bottom: 50px;
+  background-image: url("img/children.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 800px;
 }
 
 .head1 {
@@ -128,10 +136,11 @@ a:hover {
   margin: 30px;
   margin-bottom: 50px;
   margin-top: 70px;
-  font-size: 60px;
+  font-size: 29px;
   display: flex;
-  justify-content: center;
-  margin-left: -50px;
+  justify-content: left;
+  margin-left: 0%;
+  
 }
 
 /* ////////// Section Two Styles ////////// */
@@ -141,7 +150,7 @@ a:hover {
 
   flex-direction: column;
   /* padding: 150px; */
-  background-color: red;
+  
   padding-left: 100px;
   padding-top: 20px;
   padding-right: auto;
@@ -205,7 +214,7 @@ a:hover {
   flex-direction: column;
   padding: 10px;
   height: fit-content;
-  background-color: red;
+  
   width: auto;
   height: 1050px;
 }
