@@ -76,9 +76,7 @@ a:hover {
   color: rgb(41, 20, 0);
   background-color: rgb(245, 220, 187);
 }
-.nav {
-  margin-left: 70px;
-}
+
 
 
 
@@ -346,6 +344,7 @@ background-image: none;
   flex-direction: column;
   font-size: 35px;
   position: absolute;
+  width: auto;
   background-color: antiquewhite;
   z-index: 5;
   padding: 100px;
@@ -375,4 +374,10 @@ position: absolute;
 
 .hidden {
   display: none;
+}
+
+.form {
+  width: 100%;
+  height: 1000px;
+  overflow: scroll;
 }
