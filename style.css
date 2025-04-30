@@ -49,7 +49,11 @@ a {
 }
 .navlogo {
   padding-bottom: 10px;
-  background-color: rgb(223, 210, 193);
+  background: none;
+  padding-top: 10px;
+}
+.navlogo:hover {
+  background: none;
 }
 
 .navbar {
