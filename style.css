@@ -27,7 +27,7 @@ span:hover {
 
 body {
   /* margin: 0;  */
-  background-image: url(img/backRolls.svg);
+  background-image: url("img/backRolls.svg");
 }
 
 .section {
@@ -89,7 +89,7 @@ a:hover {
 /* ////////// Hero / Section One Styles ////////// */
 
 .section1 {
-  align-content: center;
+  /* align-content: center; */
   display: flex;
   flex-direction: column;
   /* background-color: rgb(17, 66, 75); */
@@ -97,41 +97,43 @@ a:hover {
   color: black;
   /* font-size: 20px;
   text-align: center; */
-  padding-left: 70px;
+  padding-left: 20px;
   padding-bottom: 50px;
-  background-image: url("img/children.jpeg");
+  padding-right: 10px;
+  background-image: url("img/20250513_1751_Autism\ Center\ Visit_remix_01jv5xe1mgfb287rpcyefz04pz.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px -230px;
-  justify-content: center;
-  align-items: center;
+  background-position: 0px -100px;
+  /* justify-content: center;
+  align-items: center; */
   height: 500px;
 }
+.leftbox {
+  position: relative;
+  top: 100px;
+  left: 0%;
+  width: fit-content;
+  padding: 20px;
 
+  background-color: aliceblue;
+  opacity: 0.9;
+}
 .head1 {
   display: flex;
-  justify-content: center;
+  
   font-size: 35px;
   margin-top: -50px;
-  margin-left: -50px;
+  margin-left: 0px;
 }
 
 .sec1buttons {
   display: flex;
-  justify-content: center;
-  margin-left: -50px;
+  /* justify-content: center; */
+  margin-left: -10px;
   padding: 20px;
 }
 
-.but3 {
-  position: relative;
-  left: -100px;
-}
 
-.but4 {
-  position: relative;
-  left: 100px;
-}
 
 .title {
   margin: 30px;
@@ -151,21 +153,24 @@ a:hover {
 
   flex-direction: column;
   /* padding: 150px; */
-  
+  padding-bottom: 50px;
   padding-left: 100px;
   padding-top: 20px;
   padding-right: auto;
   width: auto;
-  height: 700px;
+  height: fit-content;
 }
 
 .textbox2 {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: fit-content;
+  margin-right: 50px;
   font-size: 30px;
-  padding-right: auto;
+  padding:50px;
   margin-bottom: -16px;
+  background-color: red;
+  color: white;
 }
 
 .img1 {
@@ -178,7 +183,7 @@ a:hover {
 }
 
 .sectionbutton {
-  width: auto;
+  width: fit-content;
 }
 
 /* ///////// Section Three Styles /////////// */
@@ -194,7 +199,8 @@ a:hover {
 }
 
 .sec3minisec1 {
-  padding-left: 50px;
+  padding-left: 30px;
+  margin-right: 100px;
 
   display: flex;
 }
@@ -216,10 +222,10 @@ a:hover {
   flex-direction: column;
   padding: 10px;
   height: fit-content;
-  background-image: url("img/autismPic1.jpg");
+  background-image: url("img/20250513_2159_Autism Class Discovery_simple_compose_01jv6bjra3eg7vr17rn63me9vg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 700px;
+  background-position: 600px;
   width: auto;
   height: 1050px;
 }
@@ -243,10 +249,29 @@ a:hover {
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  background-image: url("img/bChildren.svg");
+  background-image: url("img/20250513_2159_Autism Class Discovery_simple_compose_01jv6bjra6fsk9nshcdte4jcye.png");
+  background-position: 0px -500px;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 400px;
  justify-content: center;
  align-items: center;
+  
+  width: auto;
+  padding: 40px;
+}
+.textbox5 {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+ background-color: aqua;
+  background-position: 0px -500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+ justify-content: center;
+ align-items: center;
+ opacity: 0.7;
   
   width: auto;
   padding: 40px;
@@ -255,6 +280,16 @@ a:hover {
 .sec5para {
   width: 700px;
   margin-top: 0px;
+}
+
+.section5button {
+  padding: 20px;
+  font-size: 20px;
+  border: 5px solid black;
+}
+.section5button:hover {
+  background-color: black;
+  color: white;
 }
 
 /* ////////// Footer Styles ///////////////// */
@@ -271,6 +306,8 @@ a:hover {
 }
 .footertext {
   width: 500px;
+  /* display: flex;
+  flex-direction: column; */
   padding: 20px;
   margin-left: 30px;
   padding-bottom: 40px;
@@ -278,7 +315,7 @@ a:hover {
 
 .credits-bar {
   position: relative;
-  top: 20px;
+  top: 0px;
   text-align: center;
 }
 
@@ -310,7 +347,8 @@ background-image: none;
 
 
 .servicesection1 {
-  background-image: url("img/bChildren.svg");
+  background-image: url("img/20250513_1751_Autism Center Visit_remix_01jv5xe1mgfb287rpcyefz04pz.png");
+  text-shadow: 10px 1px 20px;
   color: black;
   overflow: cover;
   height: auto;
@@ -339,8 +377,12 @@ background-image: none;
   margin-left: -50px;
   display: flex;
   flex-direction: column;
-  background-color: yellow;
   
+  
+}
+
+.serviceminisec {
+  background-color: yellow;
 }
 
 .contactus {
@@ -351,7 +393,8 @@ background-image: none;
   width: auto;
   background-color: antiquewhite;
   z-index: 5;
-  padding: 100px;
+  padding: 50px;
+  
   text-align: center;
   top: 10%;
   left: 20%;
@@ -384,4 +427,21 @@ position: absolute;
   width: 100%;
   height: 1000px;
   overflow: scroll;
+}
+
+.contactinformation {
+  position: relative;
+  margin-left: 20px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  left: 40%;
+  top: -200px;
+  
+}
+
+.contactactualinfo {
+  display: flex;
+  flex-direction: column;
+  width: auto;
 }
